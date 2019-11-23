@@ -1,0 +1,33 @@
+.background{
+    background: linear-gradient(45deg,rgb(0,0,0,0.55),rgb(0,0,0,255.65)),url(faces.jpg);
+    height:400px;
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment:scroll;
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+    
+}
+
+/*
+.transparent-bg{
+    background: rgb(0,0,0,0.65);
+    
+}
+*/
+
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.codea{
+    width: 300px;
+    fill:green;
+    
+}
+

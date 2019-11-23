@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="author" content="Daniel Obiero">
+    <meta name="description" content="Forms Tutorial">
+    <title>Forms Input</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    
+    <style>
+        html, * {
+            box-sizing: border-box;
+        }
+        body{ font-family: 'Roboto', sans-serif;
+            color: white;
+            margin: 0
+        }
+                
+        .background {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),url('sports.jpeg');
+            width: 100%;
+            background-size: cover;
+            background-position: center center;
+            overflow: auto;
+            height: 400px;
+            text-align: center;
+        }
+            
+        .form{
+            width: 60%;
+            margin: 0 auto;
+            background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+            border-radius: 10px solid white;
+            padding: 2em;
+            overflow: auto;
+            position: relative;
+            top: 5em;
+                            
+        }
+        
+        input {
+            background: #f2f2f2;
+            height: 3em;
+            border-radius: 5px;
+            padding: 0 10px;
+            border: none;
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .button-blue {
+            background: #3898ff;
+            width: 100%;
+            margin-top: 15px 0;
+            height: 3em;
+            border: none;
+            border-radius: 100px;
+            color: #fff;
+            padding: 1em;
+        }
+        
+    </style>
+    
+    </head>
+        
+    <body>
+    <div class="background">
+        <h3>Form Fields </h3>
+        <div class="form">
+        <form>
+            <input type="email" name="email" id="email1" placeholder="email address">
+            
+            <input type="=password" name="password" id="pass1" placeholder="password case sensitive">
+            
+            <button href="#" type= "submit" class="button-blue">
+            Log In
+            </button>
+            
+            <hr>
+            <button href="#" type= "submit" class="button-blue">
+            Sign Up
+            </button>
+            
+            
+            </form>
+            
+        </div>
+        </div>
+        
+    
+    
+    </body>
+
+
+
+</html>

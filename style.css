@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Styling for a paragraph*/
+/*1em=16px*/
+p {
+    color: black; font-size: 1em;    
+}
+
+/*Styling for education*/
+#education {
+    color: black; font-size: : 1em;
+}
+
+
+/*Styling for job experience*/
+.jobs {
+    color:black; font-size: 16px;
+}
+
+
+/*Styling for the headers h1, h2, h3*/
+
+.auto{
+    font-style: normal;
+    text-align: left;
+    color: black;
+    font-size: 2.5em;
+    background-color: yellow;
+    text-transform: uppercase;
+    border: 10px solid #000000;padding: 10px;
+    width: auto;
+    margin: 0 auto;
+    max-width: inherit;
+    padding: 20px;
+}
+
+/*Styling for the body of the page*/
+body {
+    background-color: aqua;
+    font-family: font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    
+}
+
+/*Styling for the footer*/
+
+#foot1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 11px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+}
+
+p{
+    margin: 0;
+}
+
+.box{
+    width: 100%;
+    border: solid orange;
+    background: #f2f2f2;
+    padding: 2%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.yellow{
+    position: relative;
+}
+
